@@ -1,0 +1,7 @@
+/* styles.module.css */
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.5); /* Adjust the alpha value to change transparency */
+  backdrop-filter: blur(10px); /* Adjust the blur value */
+  border-radius: 20px;
+}

@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <main>
       <NavBar/>
-     <AnimatedBackground/>
+     {/* <AnimatedBackground/>
      <StickyScrollRevealDemo/>
-     <TracingBeamDemo/>
+     <TracingBeamDemo/> */}
     </main>
   );
 }

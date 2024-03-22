@@ -19,3 +19,38 @@
     }
   }
   
+ /* module.css */
+
+@keyframes change-gradient {
+  0% { background-image: linear-gradient(to right, #8a2387, #e94057, #f27121); }
+  33% { background-image: linear-gradient(to right, #fd746c, #ff9068, #ff9a44); }
+  66% { background-image: linear-gradient(to right, #87f5fb, #7db8fe, #82b1ff); }
+}
+
+@keyframes change-font-style {
+  0% { font-style: italic; }
+  33% { font-style: bold; }
+  66% { font-style: underline; }
+}
+
+.textAnimation {
+  background: radial-gradient(
+    circle at 100%,
+    #b2a8fd,
+    #8678f9 50%,
+    #c7d2fe 75%,
+    #9a8dfd 75%
+  );
+  font-weight: 600;
+  background-size: 200% auto;
+  color: #000;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: animatedTextGradient 1.5s linear infinite;
+}
+
+@keyframes animatedTextGradient {
+  to {
+    background-position: 200% center;
+  }
+}

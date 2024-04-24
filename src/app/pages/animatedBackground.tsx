@@ -1,7 +1,7 @@
 import React from "react";
 import { BackgroundGradientAnimation } from "@/components/ui/background-gradient-animation";
 import MyInfo from "./myInfo";
-
+import '@aarsteinmedia/dotlottie-player'
 
 
 export function AnimatedBackground() {
@@ -12,6 +12,8 @@ export function AnimatedBackground() {
       </div>
       <h1>
       </h1>
+      
+
     </BackgroundGradientAnimation>
   );
 }

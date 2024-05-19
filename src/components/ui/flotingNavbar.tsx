@@ -137,10 +137,7 @@ export const FloatingNav = ({
         <span className="text-sm">{emojis[currentEmojiIndex]}</span>
         <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
       </button>
-      <button className="border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full emoji-button transition-transform duration-300 ease-in-out transform hover:scale-110">
-        <span className="text-sm">{emojis[currentEmojiIndex]}</span>
-        <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent h-px" />
-      </button>
+    
     </div>
   );
 };

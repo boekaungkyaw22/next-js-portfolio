@@ -12,7 +12,7 @@ export default function Home() {
      <AnimatedBackground/>
      {/* <StickyScrollRevealDemo/>
      <TracingBeamDemo/> */}
-     {/* <Footer/> */}
+     {/* <Footer/>   */}
     </main>
   );
 }
